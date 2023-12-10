@@ -14,17 +14,20 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+   
+    min-height: 100vh;
 }
 
 .product {
-    width: 40%;
+ width: 30%;
+  
     margin: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    overflow: hidden;
+     
     transition: transform 0.2s ease-in-out;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .product:hover {
@@ -34,7 +37,7 @@ body {
 .productImage {
     width: 100%;
     height: 400px;
-    overflow: hidden;
+    
 }
 
 .productImage img {
