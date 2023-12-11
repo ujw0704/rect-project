@@ -1,6 +1,6 @@
 import React ,{useState}from "react"
 
-
+import "./Contact.css"
 function Contact(){
 const [form ,setFormData] = useState({
     Name :"",Email: "", textarea:""

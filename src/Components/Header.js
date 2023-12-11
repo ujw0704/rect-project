@@ -1,13 +1,14 @@
 
 import React from 'react';
+import "./Header.css"
 import { Link } from 'react-router-dom';
-import "./Header"
 
 
 function Header() {
   return (
     <div className='Header'>
       
+    <ul>
 
       <li >
           <Link to="/">Home</Link>
@@ -19,15 +20,16 @@ function Header() {
           <Link to="/About">About</Link>
         </li>
         
-        <li>
+         <li>
           <Link to="/Api">Api</Link>
-        </li>
+        </li> 
 
         <li>
           <Link to="/Contact">Contact</Link>
 
         </li>
       
+    </ul>
     </div>
   );
 }

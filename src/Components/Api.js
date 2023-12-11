@@ -26,17 +26,21 @@ function Api() {
 
   return (
     <div className="wrapper">
-      <h2>API:</h2>
+      
      
         {
           apiData.map((data, index) => {
              return<div className="product" key={index}>
               <h3>{data.title}</h3>
-              <p>{data.price}</p>
+              <p>price:{data.price}</p>
+              <p>catagoery:{data.category}</p>
               <div className="productImage">
                 <img src={data.image} alt="" />
               </div>
+              <div className="button">
               <button onClick={(e) => handleClick(e,data)}>Add to cart</button>
+              </div>
+
             </div>
           
         })}

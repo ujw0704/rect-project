@@ -28,6 +28,7 @@ import "./Login.css"
     <input type="text" id="email" name="email" value={formData.email}placeholder="Enter  email" required onChange={handleChange}></input><br></br>
     <label htmfor = "password">Password</label><br></br><input type="text" id ="password"name="password" value={formData.password}placeholder="enter your passsword"required onChange={handleChange}></input><br></br>
     <button  className ="btn"type='submit'>submit</button>
+    
     </form>
     </div>
   )

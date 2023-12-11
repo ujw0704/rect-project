@@ -1,6 +1,58 @@
 *{
-   padding:0px;
-   margin:0px;
-   box-sizing: border-box; 
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
 }
 
+
+.Header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+ul {
+    margin-right: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-left:370px ;
+}
+ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 0 10px;
+
+
+}
+ 
+
+ul:hover li a{
+    transform: scale(1.5);
+    opacity: 0.2;
+    filter: blur(5px);
+   
+}
+ul li a:hover{
+    transform:scale(2);
+    opacity: 1;
+    filter: blur(0px);
+    text-decoration: none;
+
+}
