@@ -75,9 +75,28 @@
     }
    
 .button{
-    
+    margin-top: 20px;
+     height: 30px;
+     border-radius: 5px;
+     color: whitesmoke;
+     backdrop-filter: blur(10px); 
+     background-color: rgba(255, 255, 255, 0.1); 
+     
+}
+.button button{
+    all: unset;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,#47edff ,#ee32c2 );
+    border-radius: 5px;
+    height: 20px;
+    padding: 6px;
+    transition: background-image 0.3s ease
 
 }
-
+.button button:hover {
+    background-image: linear-gradient(to right, #a032ee, #47b8ff); 
+}
 
 

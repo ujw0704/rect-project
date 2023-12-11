@@ -1,3 +1,32 @@
 *{
-    
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.contact{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       height: 300px;
+       width: 400px;
+    background:#f2f2f263;
+    font-family:'Poppins', sans-serif;
+    margin: px;
+    border-radius:20px ;
+    border: 4px solid black;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.formContact{
+    width:75%;
+    height:200px ;
+    flex-direction: column;
+    display:flex;
+   
+    flex-wrap: wrap;
+   
+    z-index:99;
+
 }

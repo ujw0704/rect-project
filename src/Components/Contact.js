@@ -18,7 +18,7 @@ const handleChange= (e) => {
 
 return(
     <div className="contact">
-    <form onSubmit ={handleSubmit}>
+    <form className="formContact" onSubmit ={handleSubmit}>
     <h1>Contact</h1>
     <label htmlFor="username">Name:</label>
     <input type="text" id="username" name="name" value={form.Name} placeholder="Enter your Name" required onChange={handleChange}></input>
