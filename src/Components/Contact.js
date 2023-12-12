@@ -21,13 +21,15 @@ return(
     <form className="formContact" onSubmit ={handleSubmit}>
     <h1>Contact</h1>
     <label htmlFor="username">Name:</label>
-    <input type="text" id="username" name="name" value={form.Name} placeholder="Enter your Name" required onChange={handleChange}></input>
+    <input type="text" id="username" Name="Name" value={form.Name} placeholder="Enter your Name" required onChange={handleChange}></input>
     <label htmlFor="Email">Email:</label>
     <input type="text" name="Email" id="email" placeholder="Enter your Email" value={form.Email} required onChange={handleChange}/>
     <label htmlFor="Comment">comment:</label>
-    <textarea type ="textarea" id="textarea" placeholder="Enter your Text" value={form.textarea} required onChange={handleChange}></textarea>
+    <textarea type ="textarea" id="textarea" name="textarea" placeholder="Enter your Text" value={form.textarea} required onChange={handleChange}></textarea>
+     <div className="btns">
 
     <button type="submit">Submit</button>
+     </div>
     </form>
 
     

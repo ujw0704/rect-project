@@ -17,6 +17,10 @@ function Header() {
           <Link to="/Login">Login</Link>
         </li>
         <li>
+
+        <Link to="/Register">Register</Link>
+        </li>
+        <li>
           <Link to="/About">About</Link>
         </li>
         
@@ -28,6 +32,7 @@ function Header() {
           <Link to="/Contact">Contact</Link>
 
         </li>
+
       
     </ul>
     </div>

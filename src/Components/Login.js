@@ -1,4 +1,5 @@
 import React, {useState}from 'react'
+import { Link } from 'react-router-dom';
 import "./Login.css"
  function Login() {
     let [formData, setFormData] = useState({
@@ -26,10 +27,12 @@ import "./Login.css"
     ={formData.name} placeholder='Enter your Name' required onChange= {handleChange}></input><br/><br/>
     <label  className ="placeholder"htmfor ="email">Email :</label><br/>
     <input type="text" id="email" name="email" value={formData.email}placeholder="Enter  email" required onChange={handleChange}></input><br></br>
-    <label htmfor = "password">Password</label><br></br><input type="text" id ="password"name="password" value={formData.password}placeholder="enter your passsword"required onChange={handleChange}></input><br></br>
+    <label htmfor = "password">Password</label><br></br><input type="password" id ="password"name="password" value={formData.password}placeholder="enter your passsword"required onChange={handleChange}></input><br></br>
     <button  className ="btn"type='submit'>submit</button>
-    
     </form>
+     <div className='register'>
+   
+     </div>
     </div>
   )
 }
