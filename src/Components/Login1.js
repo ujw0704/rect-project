@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../Login1.css";
+import "./Login1.css";
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -31,6 +31,7 @@ function Login() {
 
     <div className='input-container'> 
       <section className='section'>
+     
       <p>WELCOME TO LOGIN PAGE</p>
         </section>
        
@@ -39,6 +40,7 @@ function Login() {
 
 
      
+        <h1>Login</h1>
         <div className="input-container"> 
           <input 
             type='text' 

@@ -53,7 +53,7 @@ body{
     padding: 0.625rem;
     border: 1x solid #976aac;
     transition: border-color 0.3s, color 0.3s;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 .input-container label {
@@ -86,7 +86,7 @@ body{
 .input-container:not(:has(:placeholder-shown)) label {
    
     transform: 0.625rem -1rem;
-     background-color: #200fa0;  
+    background-color: #1a27bc;  
     border-color: transparent;
 }
 .input-container::placeholder{

@@ -5,7 +5,9 @@ import './App.css';
 // import Api from './Components/Api';
 // import About from "./Components/About"
 // import Login from './Components/Login';
-import Login from './Login1';
+  
+  import Login from './Components/Login1';
+import Registrstion from "./Components/Registrstion1";
 //  import Register from './Components/Register';
 //  import Header from './Components/Header';
 // import { BrowserRouter ,Route,Routes} from 'react-router-dom';
@@ -24,7 +26,8 @@ function App() {
            <Route path='/Register' element ={<Register/>}>Register</Route>  
      </Routes>
      </BrowserRouter> */}
-      <Login/>
+         <Login/>   
+       <Registrstion/> 
     </div>
   );
 }
