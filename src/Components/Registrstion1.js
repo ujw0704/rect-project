@@ -3,7 +3,7 @@ import "./Registartion.css";
 //  import "./Login1.css"
 function Registrstion() {
 const [formData,setFormData] =useState({
-  username :"",email:"",number:""
+  username :"",email:"",number:"" ,password:""
 
 })
 
@@ -13,16 +13,21 @@ function handleChange(event){
     })
 }
 
-
+ const handleSubmit =(e)=>{
+  e.preventDefault()
+  console.log("your submitted the form" ,formData)
+  console.log(formData)
+ }
 
 
 
  
   return (
-    <div className='register'>Registrstion
-        <form >
+    <div className='register'>
+        <form onSubmit={handleSubmit} >
 
            <div className='register'>
+            <h2>Register Here</h2>
             <div className='register'>
 
           <input type='text' name='username' placeholder='enter your username' value={formData.username} required onChange={handleChange}/>
@@ -36,16 +41,21 @@ function handleChange(event){
           </div>
           <div className='register'>
 
-          <input type='email'placeholder='enter your email'value={formData.email} required onChange={handleChange}/>
+          <input type='email' name="email"placeholder='enter your email'value={formData.email} required onChange={handleChange}/>
           <label htmlFor='email'>Email</label>
           </div>
           <div className='register'>
 
-          <input type='number' placeholder='enter your number'value={formData.number} required onChange={handleChange}/>
+          <input type='number' name ="number"placeholder='enter your number'value={formData.number} required onChange={handleChange}/>
           <label htmlFor='number'>Number</label>
           </div>
+          <div className='register'>
 
+        <input type='password'  name ="password"placeholder='password'value={formData.password} required onChange={handleChange}/>
+         <label htmlFor='password'>passsword</label>
+         </div>
           </div>
+          <button className='btn' type='submit'>submit</button>
         </form>
     </div>
   )

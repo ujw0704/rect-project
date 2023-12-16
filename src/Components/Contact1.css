@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+    background-color: #e0e0e0;
+    height: 100vh;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  h1{
+    font-size: 3em;
+    color: #4d5267;
+    
+
+  }
+  .form-container .form {
+    width: 800px;
+    height: 350px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #e0e0e0;
+    box-shadow: inset 10px 10px 20px #cbced1, inset -10px -10px 20px #ffffff, 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.7);
+  }
+  
+  input, textarea {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff, inset 10px 10px 20px rgba(0, 0, 0, 0.1), inset -10px -10px 20px rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    /* Adding 3D effect */
+    outline: none;
+  }
+  
+  .form .btn {
+    width: 600px;
+    text-align: center;
+  }
+  
+  .form .btn button {
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form .btn button:hover {
+    background-color: #212426;
+  }
+  
