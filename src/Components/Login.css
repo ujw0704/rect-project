@@ -11,8 +11,8 @@
 }
 .container{
     position: relative;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(105, 30, 30, 0.3);
+    /* border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(105, 30, 30, 0.3); */
     overflow: hidden;
     display: flex;
     justify-content: center;

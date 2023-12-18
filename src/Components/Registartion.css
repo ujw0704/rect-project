@@ -42,15 +42,18 @@ h2{
     color: #2e2929;
     background-color: none;
     padding: 0.625rem;
-    border: 1x solid #976aac;
+   border: 1x solid #976aac;
     transition: border-color 0.3s, color 0.3s;
-    border-radius: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    
    
 }
 
 .register label{
     position: absolute;
-    bottom:45%; 
+    bottom:95%; 
   left: 0;
   transform: translateY(-50%) translateX(0.625rem);
   color: #efefef;
@@ -88,30 +91,42 @@ h2{
 }
 
 .register:hover label {
-    color: rgb(205, 224, 218); 
+   /* color: rgb(205, 224, 218);  */
     background-color: #1e1f1f;
 }
 form {
     width: 320px; 
      margin: 50px auto;
      text-align: center;
-     border: 1px solid rgb(206, 142, 142);
+     /* border: 1px solid rgb(196, 114, 114); */
      display: flex;
      justify-content: space-around;
      align-items: center;
      flex-direction:column;
      gap: 10px;
      padding: 20px;
-     box-shadow: inset 0 5px 30px rgba(151, 84, 84, 0.5), 0
-     0 10px rgba(17, 16, 16, 0.1);
+     /* box-shadow: inset 0 5px 30px rgba(151, 84, 84, 0.5), 0
+     0 10px rgba(17, 16, 16, 0.1); */
      backdrop-filter: blur(30px) saturate(50%);
-     border-radius: 30px;
+     border-radius: 30px; 
      z-index: 998;
      height: 470px;
 } 
 .btn{
 
+    margin-top: 10px; 
+    padding: 0.625rem 1rem;
+    background-color: #1a27bc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+     border-radius: 5px; 
+    margin-bottom: 95px;
+    width: 500px;
+        margin-top:90px
     
-        margin-top:60px
-    
+}
+button:hover{
+    background-color: #282929; 
 }

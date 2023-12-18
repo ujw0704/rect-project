@@ -31,8 +31,8 @@ function Login() {
 
     <div className='input-container'> 
       <section className='section'>
-     
-      <p>WELCOME TO LOGIN PAGE</p>
+{/*      
+      <p>WELCOME TO LOGIN PAGE</p> */}
         </section>
        
       
@@ -40,7 +40,7 @@ function Login() {
 
 
      
-        <h1>Login</h1>
+        <h1>Welcome Back</h1>
         <div className="input-container"> 
           <input 
             type='text' 
@@ -69,7 +69,7 @@ function Login() {
             {showPassword ? '👁️' : '👁️‍🗨️'}
           </span>
         </div>
-        <button type='submit'>Submit</button> 
+        <button type='submit'>LOGIN</button> 
 
       </form>
     </div>
