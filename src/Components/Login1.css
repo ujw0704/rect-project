@@ -7,10 +7,11 @@
 }
 body{
     
-    /* width: 100%; */
+     width: 100%;
      /* background-color: #283fbd;  */
     /* margin-left:50px ; */
     color: #242328;
+    height: 100;
  
     
     
@@ -24,6 +25,7 @@ body{
   font-weight: 300px;
   padding-right: 50px;
   font-family: "italic";
+  margin-bottom: 50px;
   
 }
 
